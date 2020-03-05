@@ -10,20 +10,15 @@
 </head>
 
 <body>
-
-
 <div class="text-center">
   <h1 style="font-weight: bold">Sample Table</h1>
 </div>
-
-		<div class="container-fluid" style="margin: 2% 0 2% 0">
-          			<p>You should be able to recreate this table. By default, the content of the table should be empty. When you click the button, it should fetch the data located at http://aimtell.com/files/sites.json using AJAX and insert it into page using HANDLEBARS</p> 
-          		</div>
-  
+<div class="container-fluid" style="margin: 2% 0 2% 0">
+     <p>You should be able to recreate this table. By default, the content of the table should be empty. When you click the button, it should fetch the data located at http://aimtell.com/files/sites.json using AJAX and insert it into page using HANDLEBARS</p> 
+</div>
 <div class="container-fluid">
   <button type="button" class="btn btn-primary" style="float: right;" id="loadbutton">Load Data</button>
-    			</div>
- 
+</div>	
  <div class="container-fluid" style="margin: 2% 0 2% 0">   
  <table class="table" >
   <thead>
@@ -33,16 +28,12 @@
       <th>url</th>
     </tr>
   </thead>
-  <tbody  id="myTable">
-                
+  <tbody  id="myTable">            
   </tbody>
 </table>
-		</div>
-    
+</div>
 	<script type="text/javascript" src="Data.js"></script>
-
-
-</bosy>
+</body>
 </html>
 
 <!–– I had a problem with making AJAX call due to CORS policy but I bypassed it by downloading an extension for Google Chrome called Moesif CORS. That way I was able to get the data that I needed and the load button disables after the data is inserted into the table. -->
