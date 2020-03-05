@@ -21,9 +21,7 @@
         cell3.innerHTML += data.sites[i].url;
         console.log(data);
       }
-    
-
-      }
+    }
   });
   $("#loadbutton").attr("disabled", true);
    });
